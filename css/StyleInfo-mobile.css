@@ -1,0 +1,520 @@
+*{
+	padding:0;
+	margin:0;
+	
+	}
+	
+	body{
+		
+		
+		
+		}
+		
+		div#site{
+			float:left;
+			margin-left:40px;
+			width:1000px;
+			height:1000px;
+			/*background:#79E195;*/
+			
+			}
+			
+			
+				
+div#site div#nome{
+				float:left;
+				width:31%;
+				height:100px;
+				background:#CFC8F3;
+				margin-left:-312px;
+				margin-top:5px;
+				border:1px solid #A981EB;
+				border-radius:5px;
+				}
+
+
+div#site div#nome span#data{
+	
+	float:left;
+	  margin-left:825px;
+	  margin-top:-39px;
+	  font-family:Tahoma;
+	  color:#CE57EF;
+	  font-size:18px;
+	  font-weight:bold;
+	  
+	}
+	
+	div#site div#nome span#aulas{
+		
+		 float:left;
+	  margin-left:40px;
+	  margin-top:10px;
+	  font-family:Gabriola;
+	  font-weight:bold;
+	  color:#CE57EF;
+	  font-size:12px;
+	width:100%;
+		}
+		
+		
+
+  h1#title{
+	  
+	  float:left;
+	  margin-left:78px;
+	  margin-top:20px;
+	  font-family:Gabriola;
+	  font-weight:bold;
+	  color:#CE57EF;
+	  font-size:22px;
+	  width:100%;
+	  
+	  } 
+
+
+	  span#servico{
+	  
+	  float:left;
+	  margin-left:-260px;
+	  margin-top:145px;
+	  font-family:Gabriola;
+	  font-weight:bold;
+	  color:#CE57EF;
+	  font-size:12px;
+	  width:260px;
+	  
+	  }
+	  
+	   span#cidade{
+	  
+	  float:left;
+	  margin-left:-255px;
+	  margin-top:170px;
+	  font-family:Gabriola;
+	  font-weight:bold;
+	  color:#CE57EF;
+	  font-size:12px;
+	  position:absolute;
+	  width:600px;
+	  }
+	  
+	  div#janela1{
+		  float:left;
+		  margin-top:220px;
+		  margin-left:-305px;
+		  width:150px;
+		  height:140px;
+		  background:#DADADA;
+		  border:2px solid #C6C6C6;
+	  border-radius:10px;
+	  
+		  
+		  }
+		  
+		  
+		div#janela1 span#repertorio{
+	  
+	  float:left;
+	  margin-left:20px;
+	  margin-top:10px;
+	  font-family:Gabriola;
+	  font-weight:bold;
+	  color:#CE57EF;
+	  font-size:12px;
+	  
+	  }
+	  
+	  	div#janela1 ul li.erudito{
+	  
+	  float:left;
+	  margin-left:-50px;
+	  margin-top:37px;
+	  font-family:Gabriola;
+	  font-weight:bold;
+	  color:#CE57EF;
+	  font-size:10px;
+	  list-style-type:circle;
+	  
+	  }
+	  
+	  div#janela1 ul li.avancado{
+	  
+	  float:left;
+	  margin-left:35px;
+	  margin-top:5px;
+	  font-family:Gabriola;
+	  font-weight:bold;
+	  color:#CE57EF;
+	  font-size:10px;
+	  list-style-type:disc;
+	  positon:absolute;
+	  width:70%;
+	  
+	  }
+	  
+	   div#janela1 ul li.popular{
+	  
+	  float:left;
+	  margin-left:-112px;
+	  margin-top:25px;
+	  font-family:Gabriola;
+	  font-weight:bold;
+	  color:#CE57EF;
+	  font-size:10px;
+	  list-style-type:circle;
+	  positon:absolute;
+	 
+	  }
+	  
+	   div#janela1 ul li.tangos{
+	  
+	  float:left;
+	  margin-left:35px;
+	  margin-top:95px;
+	  font-family:Gabriola;
+	  font-weight:bold;
+	  color:#CE57EF;
+	  font-size:10px;
+	  list-style-type:disc;
+	  position:absolute;
+	  width:300px;
+	  }
+	  
+	  
+	   
+	  
+	  div#frases{
+		  float:left;
+		  margin-top:400px;
+		  margin-left:-23px;
+		  width:275px;
+		  height:83px;
+		  background:#7E22D8;
+		  position:absolute;
+		  border: 1px solid #7E22D8;
+		  border-radius:16px;
+		  box-shadow:5px 5px 25px 10px #A56CDC;
+					
+		  }
+	  
+	 div#frases span#dados-um{
+	  float:left;
+	  margin-left:15px;
+	  margin-top:15px;
+	  font-family:Gabriola;
+	  font-weight:bold;
+	  color:#CE57EF;
+	  font-size:12px;
+	   position:absolute;
+	  width:80%;
+	  text-indent:1px;
+	  padding:5px;
+	  text-align:justify;
+	   }
+	  
+	  
+	
+	  
+	   div#frases-dois{
+		  float:left;
+		  margin-top:500px;
+		  margin-left:-23px;
+		  width:275px;
+		  height:83px;
+		  background:#7E22D8;
+		  position:absolute;
+		  border: 1px solid #7E22D8;
+		  border-radius:10px;
+		  box-shadow:5px 5px 25px 10px #A56CDC;
+					
+		  }
+		  
+		 
+	  
+	 div#frases-dois span#dados-dois{
+	  float:left;
+	  margin-left:20px;
+	  margin-top:20px;
+	  font-family:Gabriola;
+	  font-weight:bold;
+	  color:#CE57EF;
+	  font-size:12px;
+	  list-style-type:disc;
+	  position:absolute;
+	  width:90%;
+	   text-indent:1px;
+	 
+	  }
+	  
+	  
+	 
+	  
+	  div#footer{
+			float:left;
+			margin-left:550px;
+			margin-top:300px;
+			width:200px;
+			height:100px;
+			}	
+	  
+	  
+		  
+		  div#footer p{
+				font-family:Tahoma;
+				color:#8E8E8E;
+				font-size:12px;
+				}
+				
+				
+				
+				 div#site div#linha{
+	  float:left;
+	  margin-top:200px;
+	  margin-left:-265px;
+	  width:200px;
+	  height:2px;
+	  background:#B8B8B8;
+	  
+	  }
+
+
+div#site div#menu{
+				float:left;
+				width:31%;
+				height:24px;
+				background:#A981EB;
+				border:1px solid #A981EB;
+				border-radius:5px;
+				margin-left:-37px;
+				margin-top:108px;
+				}
+				
+			div#site div#menu ul li{
+				display:inline;
+				font-family:Trebuchet;
+				font-weight:bold;
+				color:#6F3398;
+				font-size:12px;
+				background:#E1C9EA;
+				padding:5px;
+				border:1px solid #A062D0;
+				height:10px;
+				width:100px;
+				}	
+				
+				div#site div#menu ul li#home{
+					float:left;
+					margin-left:15px;
+					margin-top:1px;
+					text-align:center;
+					width:13%;
+					}
+				
+				
+				div#site div#menu ul li#home a{
+					float:left;
+					margin-top:-2px;
+				}
+				
+				
+				
+				div#site div#menu ul li#info{
+					float:left;
+					margin-left:35px;
+					margin-top:1px;
+					text-align:center;
+					width:29%;
+					}
+				
+				
+				div#site div#menu ul li#info a{
+					float:left;
+					margin-top:-2px;
+				}
+				
+				
+				div#site div#menu ul li#fotos{
+					float:left;
+					margin-left:35px;
+					margin-top:1px;
+					text-align:center;
+					width:13%;
+					}
+				
+				
+				div#site div#menu ul li#fotos a{
+					float:left;
+					margin-top:-1px;
+				}
+				
+				
+				div#site div#menu ul li:hover{
+					color:#F7F7F7;	
+				background:#3C6EB0;
+				
+					}
+				
+				div#site div#menu ul li a{
+				text-decoration:none;
+					
+				}
+			div#site div#menu ul li a:link{
+				color:#8B38D1;	
+				}
+
+div#site div#menu ul li a:hover{
+				color:#F7F7F7;	
+				background:#3C6EB0;
+				}
+				
+				
+				div#site div#menu ul#admin li#adm{
+				display:block;
+				font-family:Gabriola;
+				color:#6F3398;
+				font-size:22px;
+				background:#E1C9EA;
+				padding:5px;
+				border:1px solid #A062D0;
+				float:left;
+				margin-top:550px;
+				width:168px;
+				position:absolute;
+				}	 
+				
+				div#site div#menu ul#admin li#adm:hover{
+					color:#F7F7F7;	
+				background:#3C6EB0;
+				
+					}
+				
+				div#site div#menu ul#admin li#adm a{
+				text-decoration:none;
+					
+				}
+s			div#site div#menu ul#admin li#adm a:link{
+				color:#8B38D1;	
+				}
+
+div#site div#menu ul#admin li#adm a:hover{
+				color:#F7F7F7;	
+				background:#3C6EB0;
+				}
+
+
+
+ div#janela2{
+		  float:left;
+		  margin-top:220px;
+		  margin-left:-140px;
+		  width:125px;
+		  height:150px;
+		  background:#DADADA;
+		  border:2px solid #C6C6C6;
+	  border-radius:10px;
+	  
+		  
+		  }
+		
+		div#img1{
+		  float:left;
+	  margin-left:82px;
+	  margin-top:65px;
+				
+						
+			}
+			
+			 
+		     div#janela2 li#teoria{
+	  
+	  float:left;
+	  margin-left:12px;
+	  margin-top:5px;
+	  font-family:Gabriola;
+	  font-weight:bold;
+	  color:#CE57EF;
+	  font-size:12px;
+	  list-style-type:square;
+	  
+	  }
+	  
+	  
+	  div#img2{
+		  float:left;
+	  margin-left:-122px;
+	  margin-top:132px;
+		
+			
+			}
+			
+		
+
+div#janela2 li{
+			
+			float:left;
+	  margin-left:50px;
+	 margin-top:60px;
+	 padding:10px;
+	 	  font-family:Gabriola;
+	  font-weight:bold;
+	  color:#CE57EF;
+	  font-size:12px;
+	  list-style-type:square;
+			}	
+			
+	  div#janela2 li#harmonia{
+	  
+	  float:left;
+	  margin-left:12px;
+	  margin-top:-5px;
+	  font-family:Gabriola;
+	  font-weight:bold;
+	  color:#CE57EF;
+	  font-size:12px;
+	  list-style-type:square;
+	  }
+	  
+	  div#img3{
+		  float:left;
+	  margin-left:-182px;
+	  margin-top:202px;
+		
+			
+			}
+	  
+	  div#janela2 li#ritmo{
+	  
+	  float:left;
+	  margin-left:12px;
+	  margin-top:-1px;
+	  font-family:Gabriola;
+	  font-weight:bold;
+	  color:#CE57EF;
+	  font-size:12px;
+	  list-style-type:square;
+	  
+	  }
+	  
+	  
+	  div#img4{
+		  float:left;
+	  margin-left:-182px;
+	  margin-top:272px;
+		
+			
+			}
+			
+			
+	  div#janela2 li#impro{
+	  
+	  float:left;
+	  margin-left:12px;
+	  margin-top:-2px;
+	  font-family:Gabriola;
+	  font-weight:bold;
+	  color:#CE57EF;
+	  font-size:12px;
+	  list-style-type:square;
+	  
+	  }

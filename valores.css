@@ -1,0 +1,23 @@
+.valor {
+  border: 1px solid #a981eb;
+  background: #daf1da;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  width: 32%;
+  height: auto;
+  padding-left: 15px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 600px) {
+  .valor {
+    width: 60%;
+    font-size: 14px;
+  }
+}
