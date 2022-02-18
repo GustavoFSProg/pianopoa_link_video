@@ -151,6 +151,15 @@
     list-style: none;
     padding: 5px 5px;
   }
+  .fotos-doisB div img {
+    height: 16rem;
+  }
+
+  @media screen and (max-width: 700px) {
+    .fotos-um {
+      display: none;
+    }
+  }
 
   .fotos-doisB {
     float: left;
@@ -159,7 +168,7 @@
     background: #cfc8f3;
     border: 1px solid #b676d6;
     border-radius: 10px;
-    height: 385px;
+    /* height: 385px; */
     width: 92%;
     overflow: auto;
     padding-top: 15px;
@@ -428,6 +437,12 @@
     color: #000000;
   }
 
+  @media screen and (max-width: 600px) {
+    #tamanho {
+      display: none;
+    }
+  }
+
   .fotos-dois {
     width: 100%;
     height: 40%;
@@ -473,10 +488,6 @@
     border-radius: 10px;
     position: absolute;
     padding: 5px;
-  }
-
-  .fotos {
-    /*background:red;*/
   }
 
   .fotos-um {
@@ -830,10 +841,6 @@ body {
     border-radius: 10px;
     position: absolute;
     padding: 5px;
-  }
-
-  .fotos {
-    /*background:red;*/
   }
 
   .fotos-um {
@@ -1376,24 +1383,54 @@ nav.navbar-default {
   color: #f7f7f7;
   background: #3c6eb0;
 }
-
+/* 
 .fotos-doisB img {
   width: 80%;
   height: 180%;
   margin-top: 22px;
-}
+} */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 400px) {
   .fotos-doisB {
     width: 100%;
-    height: 380px;
+    height: 210px;
     margin-left: 1px;
   }
 
-  .fotos-doisB img {
+  .fotos-doisB div img {
     width: 100%;
-    height: 340px;
+    height: 17rem;
     margin-top: 1px;
+    background: red;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .fotos-doisB {
+    width: 100%;
+    height: 22rem;
+    margin-left: 1px;
+  }
+
+  .fotos-doisB div img {
+    width: 100%;
+    height: 18rem;
+    margin-top: 1px;
+    background: red;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .fotos-doisB {
+    width: 100%;
+    height: 37rem;
+    margin-left: 1px;
+  }
+
+  .fotos-doisB div img {
+    width: 100%;
+    height: 30rem;
+    margin-top: 22px;
     background: red;
   }
 }
