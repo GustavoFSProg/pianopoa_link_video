@@ -155,7 +155,7 @@
     height: 16rem;
   }
 
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 1000px) {
     .fotos-um {
       display: none;
     }
@@ -1188,10 +1188,6 @@ body {
     padding: 5px;
   }
 
-  .fotos {
-    /*background:red;*/
-  }
-
   .fotos-um {
     float: left;
     margin-top: 20px;
@@ -1392,14 +1388,15 @@ nav.navbar-default {
 
 @media screen and (max-width: 400px) {
   .fotos-doisB {
-    width: 100%;
-    height: 210px;
-    margin-left: 1px;
+    width: 105%;
+    height: 195px;
+    margin-left: -3px;
+    margin-top: -3px;
   }
 
   .fotos-doisB div img {
-    width: 100%;
-    height: 17rem;
+    width: 102%;
+    height: 16rem;
     margin-top: 1px;
     background: red;
   }
@@ -1449,7 +1446,7 @@ nav.navbar-default {
   overflow: auto;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .fotos-dois {
     float: left;
     margin-top: 30px;
@@ -1478,7 +1475,11 @@ nav.navbar-default {
   margin-left: 10px;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 800px) {
+  .fotos-dois {
+    margin-top: 10px;
+  }
+
   .fotos-dois ul li.item-um {
     float: right;
     margin-left: -30px;
