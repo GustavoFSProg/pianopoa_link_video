@@ -11,6 +11,7 @@
 
   <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="css/index-b.css" media="screen" rel="stylesheet">
+  <link href="css/styles.css" media="screen" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Courgette|Fira+Code&display=swap" rel="stylesheet">
 </head>
 
@@ -51,131 +52,123 @@
 
   <!-- CONTEUDO -->
   <section id="servico">
-    <div class="container">
-      <div class="row">
-        <div style="display: flex; flex-direction: column; width: 100%; background: #a981eb; padding: 3rem; color: #fefefa; font-family: Gabriola; font-size: 18px; line-height: 160%;">
-          <div style="display: flex; justify-content: space-between; margin: 2rem 0 2rem 0">
-
-
-            <!-- CARD SLIDE DE FOTOS -->
-            <div style="
+    <div class="container" style="padding-left: 0; padding-right: 0; ">
+      <div class="content">
+        <div class="pictures">
+          <!-- CARD SLIDE DE FOTOS -->
+          <div class="slide" style="
                     background: url(img/slide1.gif);
                     background-position: center;
                     background-repeat: no-repeat;
                     background-size: cover;
-                    border: 2px solid #ce57ef;
-                    padding: 0px;
-                    width:50%;
-                    height: auto;
                 ">
+          </div>
+
+          <!-- LINK CONCERTO PIANO SOLO -->
+          <div class="recital">
+            <a href="https://www.youtube.com/watch?v=cff2HUv5zwk">
+              <img src="thumb-recital.png" alt="Recital piano solo" width="100%" height="auto" />
+            </a>
+          </div>
+        </div>
+
+        <!-- DEPOIMENTOS -->
+        <h2 style="color: rgba(0, 0, 0, 0.5); text-align: center; padding-top: 2rem; padding-bottom: 4rem;">
+          <strong>Depoimentos</strong>
+        </h2>
+
+        <div class="depoimentos">
+          <div class="column">
+            <div style="max-width: 450px; background: rgba(0, 0, 0, 0.5); padding: 2rem; border-radius: 0.5rem; margin-bottom: 2rem">
+              <p>
+                "A Jordana foi o melhor acontecimento de 2017 e continua sendo! Uma pessoa querida, dedicada e cheia de paciência que pelas qualidades pessoais e profissionais me ajudou a resgatar o piano. Suas aulas são alegres e criativas nas quais além da técnica
+                a pessoa entra na <a id="link-um" href="info.php"> música </a>e no que o compositor quis expressar através daquelas notas, daquele compasso e daquele ritmo! Recomendo essa guria, cheia de orgulho!!!!!"
+              </p>
+              <p>
+                Dra. Luiza Hoefel, Psiquiatra
+              </p>
             </div>
 
-            <!-- LINK CONCERTO PIANO SOLO -->
-            <div style="padding: 0px; width:50%; margin-left: 2rem">
-              <a href="https://www.youtube.com/watch?v=cff2HUv5zwk">
-                <img src="thumb-recital.png" alt="Recital piano solo" width="100%" height="auto" />
-              </a>
+            <div style="max-width: 450px; background: rgba(0, 0, 0, 0.5); padding: 2rem; border-radius: 0.5rem; margin-bottom: 2rem">
+              <p>
+                "As aulas da Jordana são diferenciadas: ela ensina não apenas a tocar o instrumento, mas a entender a estrutura de uma composição. Excelente professora!"
+              </p>
+              <p>
+                Marco Antônio
+              </p>
+            </div>
+
+            <div style="max-width: 450px; background: rgba(0, 0, 0, 0.5); padding: 2rem; border-radius: 0.5rem; margin-bottom: 2rem">
+              <p>
+                "Conheci a Jordana como interprete em diversos concertos . Ela domina uma repertório vasto que vai desde o barroco aos dias de hoje com muita propriedade , estudo histórico e estilos(não só o erudito, popular também).Daí pude ver a Jordana conduzindo
+                ensaios musicais e descobri que ela tem uma didática excelente , que se estende as atividades como professora (experiência como aluno também). Uma professora com excelente didática e também uma artista sensível e , portanto , completa."
+              </p>
+              <p>
+                Daniel
+              </p>
             </div>
           </div>
 
-          <!-- DEPOIMENTOS -->
-          <h2 style="color: rgba(0, 0, 0, 0.5);; text-align: center; padding-bottom: 4rem;">
-            <strong>Depoimentos</strong>
-          </h2>
 
-          <div style="display: flex; font-style: italic; font-weight: lighter;">
-            <div style="display: flex; flex-direction: column; width: 50%; align-items: center;">
-              <div style="max-width: 450px; background: rgba(0, 0, 0, 0.5); padding: 2rem; border-radius: 0.5rem; margin-bottom: 2rem">
-                <p>
-                  "A Jordana foi o melhor acontecimento de 2017 e continua sendo! Uma pessoa querida, dedicada e cheia de paciência que pelas qualidades pessoais e profissionais me ajudou a resgatar o piano. Suas aulas são alegres e criativas nas quais além da técnica
-                  a pessoa entra na <a id="link-um" href="info.php"> música </a>e no que o compositor quis expressar através daquelas notas, daquele compasso e daquele ritmo! Recomendo essa guria, cheia de orgulho!!!!!"
-                </p>
-                <p>
-                  Dra. Luiza Hoefel, Psiquiatra
-                </p>
-              </div>
+          <div class="column">
 
-              <div style="max-width: 450px; background: rgba(0, 0, 0, 0.5); padding: 2rem; border-radius: 0.5rem; margin-bottom: 2rem">
-                <p>
-                  "As aulas da Jordana são diferenciadas: ela ensina não apenas a tocar o instrumento, mas a entender a estrutura de uma composição. Excelente professora!"
-                </p>
-                <p>
-                  Marco Antônio
-                </p>
-              </div>
-
-              <div style="max-width: 450px; background: rgba(0, 0, 0, 0.5); padding: 2rem; border-radius: 0.5rem; margin-bottom: 2rem">
-                <p>
-                  "Conheci a Jordana como interprete em diversos concertos . Ela domina uma repertório vasto que vai desde o barroco aos dias de hoje com muita propriedade , estudo histórico e estilos(não só o erudito, popular também).Daí pude ver a Jordana conduzindo
-                  ensaios musicais e descobri que ela tem uma didática excelente , que se estende as atividades como professora (experiência como aluno também). Uma professora com excelente didática e também uma artista sensível e , portanto , completa."
-                </p>
-                <p>
-                  Daniel
-                </p>
-              </div>
+            <div style="max-width: 450px; background: rgba(0, 0, 0, 0.5); padding: 2rem; border-radius: 0.5rem; margin-bottom: 2rem">
+              <p>
+                "Recomendo a Prof.de piano Jordana Brusa como profissional competente e dedicada."
+              </p>
+              <p>
+                Poeta Mário Orcy
+              </p>
             </div>
 
-
-            <div style="display: flex; flex-direction: column; width: 50%; align-items: center;">
-
-              <div style="max-width: 450px; background: rgba(0, 0, 0, 0.5); padding: 2rem; border-radius: 0.5rem; margin-bottom: 2rem">
-                <p>
-                  "Recomendo a Prof.de piano Jordana Brusa como profissional competente e dedicada."
-                </p>
-                <p>
-                  Poeta Mário Orcy
-                </p>
-              </div>
-
-              <div style="max-width: 450px; background: rgba(0, 0, 0, 0.5); padding: 2rem; border-radius: 0.5rem; margin-bottom: 2rem">
-                <p>
-                  "Excelentes métodos para estudo da música, consegueguindo explicar com diversos recursos como entender uma música, analisando rítmo, métrica, harmonia, e trabalhando a técnica ao mesmo tempo. Posso enxergar meu progresso de muitas maneiras desde que comecei
-                  a fazer aulas com a Jordana, que é uma professora paciente e sempre tem um jeito eficiente para esclarecer o assunto, construindo um raciocínio junto com o aluno ao longo das suas aulas e dando significado ao que aprendemos. Recomendo!"
-                </p>
-                <p>
-                  Rafaela
-                </p>
-              </div>
-
-              <div style="max-width: 450px; background: rgba(0, 0, 0, 0.5); padding: 2rem; border-radius: 0.5rem; margin-bottom: 2rem">
-                <p>
-                  "Queridos futuros alunos da Jordana, acreditem em mim, ela é uma super profe porque tem as qualidades indispensáveis: paciência, compreensão e serenidade! E não desiste nunca!!!! Aconselho muito e sou muito grata a ela. Se quiserem fazer contato estou
-                  aqui. Luiza, médica psiquiatra e aprendendo piano feliz da vida! "
-                </p>
-                <p>
-                  Dra. Luiza Hoefel, Psiquiatra
-                </p>
-              </div>
-
-              <div style="max-width: 450px; background: rgba(0, 0, 0, 0.5); padding: 2rem; border-radius: 0.5rem; margin-bottom: 2rem">
-                <p>
-                  "Por sua arte de tocar, técnica, sensibilidade e valor interpretativo, recomendo a professora de piano Jordana Brusa"
-                </p>
-                <p>
-                  Poeta Mário Orcy
-                </p>
-              </div>
-
+            <div style="max-width: 450px; background: rgba(0, 0, 0, 0.5); padding: 2rem; border-radius: 0.5rem; margin-bottom: 2rem">
+              <p>
+                "Excelentes métodos para estudo da música, consegueguindo explicar com diversos recursos como entender uma música, analisando rítmo, métrica, harmonia, e trabalhando a técnica ao mesmo tempo. Posso enxergar meu progresso de muitas maneiras desde que comecei
+                a fazer aulas com a Jordana, que é uma professora paciente e sempre tem um jeito eficiente para esclarecer o assunto, construindo um raciocínio junto com o aluno ao longo das suas aulas e dando significado ao que aprendemos. Recomendo!"
+              </p>
+              <p>
+                Rafaela
+              </p>
             </div>
+
+            <div style="max-width: 450px; background: rgba(0, 0, 0, 0.5); padding: 2rem; border-radius: 0.5rem; margin-bottom: 2rem">
+              <p>
+                "Queridos futuros alunos da Jordana, acreditem em mim, ela é uma super profe porque tem as qualidades indispensáveis: paciência, compreensão e serenidade! E não desiste nunca!!!! Aconselho muito e sou muito grata a ela. Se quiserem fazer contato estou
+                aqui. Luiza, médica psiquiatra e aprendendo piano feliz da vida! "
+              </p>
+              <p>
+                Dra. Luiza Hoefel, Psiquiatra
+              </p>
+            </div>
+
+            <div style="max-width: 450px; background: rgba(0, 0, 0, 0.5); padding: 2rem; border-radius: 0.5rem; margin-bottom: 2rem">
+              <p>
+                "Por sua arte de tocar, técnica, sensibilidade e valor interpretativo, recomendo a professora de piano Jordana Brusa"
+              </p>
+              <p>
+                Poeta Mário Orcy
+              </p>
+            </div>
+
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <footer style="display: flex; color: white; background: #a981eb; margin-top: 4rem; justify-content: space-around; align-items: flex-start; padding: 2rem;">
+  <footer class="footer">
     <!-- CARD DE CONTATOS -->
-    <div style="display: flex; flex-direction: column;">
+    <div style="margin-bottom: 1rem;">
       <h5><strong>CONTATO</strong></h5>
 
-      <a target="_blank" style="display: flex; align-items: center; color: white;text-decoration: none;" href="https://wa.me/+5551984596917">
+      <a class="footer-link" target="_blank" href="https://wa.me/+5551984596917">
         <div style="width:25px; height:25px;">
           <img src="whats.svg" width="100%" height="auto" />
         </div>
         &nbsp (51) 9 8459 6917
       </a>
 
-      <a target="_blank" style="display: flex; align-items: center; color: white;text-decoration: none;" href="mailto:jordanabrusa11@gmail.com?subject=Contato pianopoa.com.br&body=Olá Jordana! Eu sou <diga seu nome> e gostaria...">
+      <a class="footer-link" target="_blank" href="mailto:jordanabrusa11@gmail.com?subject=Contato pianopoa.com.br&body=Olá Jordana! Eu sou <diga seu nome> e gostaria...">
         <div style="width:25px; height:25px; padding: 3px">
           <img src="email.svg" width="100%" height="auto" />
         </div>
