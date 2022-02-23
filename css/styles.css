@@ -26,13 +26,13 @@
   padding: 0px;
   width: 50%;
   height: auto;
+  margin-left: 2rem;
   clear: both;
 }
 
 .recital {
   padding: 0px;
   width: 50%;
-  margin-left: 2rem
 }
 
 .depoimentos {
@@ -75,11 +75,12 @@
   .slide {
     width: 100%;
     height: 170px;
-    margin-bottom: 2rem;
+    margin-left: 0;
   }
   .recital {
     width: 100%;
     margin-left: 0px;
+    margin-bottom: 2rem;
   }
   .pictures {
     flex-direction: column;
