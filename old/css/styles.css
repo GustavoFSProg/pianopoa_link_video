@@ -113,18 +113,6 @@ h5 {
   .content {
     padding: 1rem;
   }
-  h1 {
-    font-family: Gabriola;
-    font-weight: bold;
-    color: #ce57ef;
-    font-size: 4rem;
-    text-align: center;
-    margin: 1rem 0;
-    line-height: 160%;
-  }
-  .header-subtitle {
-    font-size: 2rem;
-  }
   .footer {
     flex-direction: column;
     padding: 4rem 5rem;
